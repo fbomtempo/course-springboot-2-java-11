@@ -30,5 +30,4 @@ public class OrderResource {
 		Order obj = userService.findById(id);
 		return ResponseEntity.ok().body(obj);
 	}
-	
 }
