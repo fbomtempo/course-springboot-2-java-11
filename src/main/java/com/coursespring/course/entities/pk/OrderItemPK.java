@@ -9,7 +9,6 @@ import javax.persistence.ManyToOne;
 
 import com.coursespring.course.entities.Order;
 import com.coursespring.course.entities.Product;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Embeddable
 public class OrderItemPK implements Serializable {
